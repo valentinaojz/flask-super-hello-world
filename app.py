@@ -6,5 +6,5 @@ def hello_world():
     return render_template('index.html')
 
 @app.route('/welcome')
-def welcome world():
+def welcome ():
     return render_template('welcome.html', user = request.args.get('username'))render_template, request
